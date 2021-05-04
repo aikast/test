@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+
+.header {
+	height: 64px;
+	margin: 0 auto;
+}
+
+.header__content {
+	padding: 8px 24px;
+	display: flex;
+}
+
+.header__logo {
+	align-self: center;
+}
+
+.header__menu {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.header__list {
+	list-style-type: none;
+	font-size: 17px;
+	display: inline-block;
+	margin-left: 49px;
+	margin-top: -18px;
+}
+
+.header__list li {
+	display: inline-block;
+	margin-right: 72px;
+	position: relative;
+}
+
+.header__list li:after {
+	content: url(./images/dropdown_arrow.png);
+	position: absolute;
+	bottom: 6px;
+	right: -28px;
+}
+
+.header__list li a {
+	text-decoration: none;
+}
+
+.header__list li:last-child {
+	margin-right: 0px;
+	margin-left: -25px;
+}
+
+.header__buttons {
+	margin-left: auto;
+}
+
+.button {
+	font-size: 18px;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	background: transparent;
+	height: 48px;
+	width: 144px;
+}
+
+.header__button_green {
+	background: #00C805;
+	border-radius: 24px;
+}
+
+.container {
+	max-width: 1206px;
+	margin: 0 auto;
+}
+.section_green {
+	background: #C3F53C;
+}
+
+.black_button {
+	background: #0000;
+	border-radius: 24px;
+	color: #fff;
+}
+.main-title {
+	display: flex;
+}
+.main-title__col h1 {
+	font-size: 46px;
+	font-weight: 700;
+	letter-spacing: 1.7px;
+	padding-right: 50px;
+	line-height: 60px;
+}
+.main-title__col_left {
+	width: 41%;
+	padding: 94px 0 0 44px;
+}
+.main-title__image{
+	width: 692px;
+	height: 600px;
+}
+
+.section_white{
+	background: #F0EBE6;
+
+}
+
+.products__list {
+	list-style-type: none;
+	font-size: 23px;
+	display: inline-block;
+}
+
+.products__list-item {
+	display: inline-block;
+	margin-right: 30px;
+	color: #6F787E;
+}
+
+.products__list-item:hover {
+	color: #000;
+}
+.products__list-item:last-child{
+	color: #FF90AF;
+	position: relative;
+}
+.products__list-item:last-child:before {
+	position: absolute;
+	content: "";
+	height: 36px;
+	top: -6px;
+	left: -18px;
+	border: 1px solid #000;
+}
